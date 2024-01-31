@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nova</title>
+
+		<!-- meta tag -->
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    	<!-- bootstrap css link -->
+    	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    	<!-- custom css file link -->
+    	<link rel="stylesheet" type="text/css" href="style.css">
+
+    	<!-- ontawesome cdn -->
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    	<!-- google font link -->
+    	<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato&family=Macondo&family=Open+Sans:wght@300&family=Roboto+Slab:wght@300&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+
+		<!-- slick css -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		
+
+	</head>
+	<body>
+
+		<!-- navbar start -->
+
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+			  <div class="container">
+			    <a class="navbar-brand text-light fw-bold fs-3" href="#home">Nova</a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <i class="fa-solid fa-list text-light"></i>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link text-light pe-lg-4" href="#home">HOME</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link text-light pe-lg-4" href="#about">ABOUT</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link text-light pe-lg-4" href="#team">TEAM</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link text-light pe-lg-4" href="#gallery">GALLERY</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link text-light pe-lg-4" href="#features">FEATURES</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link text-light pe-lg-4" href="#pricing">PRICING</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link text-light pe-lg-4" href="#blog">BLOG</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link text-light pe-lg-4" href="#contact">CONTACT</a>
+			        </li>
+			        <form class="d-flex">
+				        <button class="btn btn-outline-light" type="submit">GET STARTED</button>
+				      </form>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+
+			<!-- banner start -->
+			<section id="home" class="banner">
+				<div class="container">
+					<div class="p-lg-5">
+						<div class="row pt-lg-5" style="align-items: center;">
+							<div class="col-md-7">
+								<h2 class="text-light pb-lg-3">Start Your Free 14-Day Trial</h2>
+								<p class="text-light pb-lg-3 fs-lg-5">See how Nova can help you double your business in 12 months. Discover how to get more qualified leads & close deals faster.</p>
+								<div class="row">
+								  <div class="col">
+								    <input type="text" class="form-control" placeholder="Full name" aria-label="First name">
+								  </div>
+								  <div class="col">
+								    <input type="text" class="form-control" placeholder="Email" aria-label="Last name">
+								  </div>
+								</div>
+								<div class="row pt-3 form">
+								  <div class="col form">
+								    <input type="text" class="form-control" placeholder="Phone" aria-label="First name">
+								  </div>
+								  <div class="col form">
+								    <select id="inputState" class="form-select">
+								      <option selected>Business type</option>
+								      <option>1. Online</option>
+								      <option>2. Offline</option>
+								    </select>
+								  </div>
+								  <div class="d-grid gap-2 pt-lg-3">
+									  <button class="btn button py-lg-3" type="button">Start My Free 14-Day Trial</button>
+								</div>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<img src="https://demo.epic-webdesign.com/tf-nova/v3/images/iphones-2-2.png" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5f6f7" fill-opacity="1" d="M0,160L80,170.7C160,181,320,203,480,181.3C640,160,800,96,960,85.3C1120,75,1280,117,1360,138.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+			</section>
+
+			<!-- about secton -->
+			<section id="about" class="about pb-5">
+				<div class="container">
+					<h2 class="text-center pb-3">How It Works</h2>
+					<p class="text-muted text-center fs-5 pb-5">There are many variations of passages of Lorem Ipsum available, but the majority<br>
+					have suffered alteration, by injected humour, or new randomised words.</p>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card text-center border-0 p-4 cb" style="align-items: center;">
+							  <img src="https://demo.epic-webdesign.com/tf-nova/v3/images/main-service1.png" class="img-fluid image" alt="">
+							  <div class="card-body">
+							    <h5 class="card-title fs-4">Search Oportunities</h5>
+							    <p class="card-text text-muted">Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum nisle varius sed aliquam ets vitae dictis netsum.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card text-center border-0 p-4 cb" style="align-items: center;">
+							  <img src="https://demo.epic-webdesign.com/tf-nova/v3/images/main-service2.png" class="img-fluid image" alt="">
+							  <div class="card-body">
+							    <h5 class="card-title fs-4">Search Oportunities</h5>
+							    <p class="card-text text-muted">Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum nisle varius sed aliquam ets vitae dictis netsum.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card text-center border-0 p-4" style="align-items: center;">
+							  <img src="https://demo.epic-webdesign.com/tf-nova/v3/images/main-service3.png" class="img-fluid image" alt="">
+							  <div class="card-body">
+							    <h5 class="card-title fs-4">Search Oportunities</h5>
+							    <p class="card-text text-muted">Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum nisle varius sed aliquam ets vitae dictis netsum.</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- about-down section -->
+			<section id="" class="about-end p-lg-5">
+				<div class="container pt-5">
+					<h2 class="text-center pb-3">Amazing Features</h2>
+					<p class="text-center pb-5 text-muted">There are many variations of passages of Lorem Ipsum available, but the majority<br>have suffered alteration, by injected humour, or new randomised words.</p>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card border-0 mb-3 text-lg-end text-center" style="align-items: center;">
+							  <div class="row g-0">
+							    <div class="col-md-10">
+							      <div class="card-body">
+							        <h5 class="card-title pb-3">RESPONSIVE LAYOUT</h5>
+							        <p class="card-text text-muted">Quis autem velis etis netsum etims quis voluptate velit nihil est netsum et quam donecs netis de etsum nisle lorem.</p>
+							      </div>
+							    </div>
+							    <div class="col-md-2">
+							      <i class="fa-solid p-3 back fs-2 fa-display"></i>
+							    </div>
+							  </div>
+							</div>
+							<div class="card end border-0 mb-3 text-lg-end text-center" style="align-items: center;">
+							  <div class="row g-0">
+							    <div class="col-md-10">
+							      <div class="card-body">
+							        <h5 class="card-title pb-3">CLEAN CODE</h5>
+							        <p class="card-text text-muted">Quis autem velis etis netsum etims quis voluptate velit nihil est netsum et quam donecs netis de etsum nisle lorem.</p>
+							      </div>
+							    </div>
+							    <div class="col-md-2">
+							      <i class="fa-solid p-3 back fs-2 fa-code"></i>
+							    </div>
+							  </div>
+							</div>
+							<div class="card border-0 mb-3 text-lg-end text-center" style="align-items: center;">
+							  <div class="row g-0">
+							    <div class="col-md-10">
+							      <div class="card-body">
+							        <h5 class="card-title pb-3">RETINA READY</h5>
+							        <p class="card-text text-muted">Quis autem velis etis netsum etims quis voluptate velit nihil est netsum et quam donecs netis de etsum nisle lorem.</p>
+							      </div>
+							    </div>
+							    <div class="col-md-2">
+							      <i class="fa-solid p-3 back fs-2 fa-camera"></i>
+							    </div>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<img src="	https://demo.epic-webdesign.com/tf-nova/v3/images/features-iphone.png" class="img-fluid">
+						</div>
+						<div class="col-md-4">
+							<div class="card border-0 mb-3 text-lg-start text-center" style="align-items: center;">
+							  <div class="row g-0">
+							  	<div class="col-md-2">
+							      <i class="fa-solid p-3 back fs-2 fa-feather"></i>
+							    </div>
+							    <div class="col-md-10">
+							      <div class="card-body">
+							        <h5 class="card-title pb-3">MODERN DESIGN</h5>
+							        <p class="card-text text-muted">Quis autem velis etis netsum etims quis voluptate velit nihil est netsum et quam donecs netis de etsum nisle lorem.</p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<div class="card border-0 mb-3 text-lg-start text-center" style="align-items: center;">
+							  <div class="row g-0">
+							  	<div class="col-md-2">
+							      <i class="fa-solid p-3 back fs-2 fa-rocket"></i>
+							    </div>
+							    <div class="col-md-10">
+							      <div class="card-body">
+							        <h5 class="card-title pb-3">PREMIUM FEATURES</h5>
+							        <p class="card-text text-muted">Quis autem velis etis netsum etims quis voluptate velit nihil est netsum et quam donecs netis de etsum nisle lorem.</p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<div class="card border-0 mb-3 text-lg-start text-center" style="align-items: center;">
+							  <div class="row g-0">
+							  	 <div class="col-md-2">
+							      <i class="fa-solid p-3 back fs-2 fa-comments"></i>
+							    </div>
+							    <div class="col-md-10 ps-2">
+							      <div class="card-body">
+							        <h5 class="card-title pb-3">24/7 SUPPORT</h5>
+							        <p class="card-text text-muted">Quis autem velis etis netsum etims quis voluptate velit nihil est netsum et quam donecs netis de etsum nisle lorem.</p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#25259b" fill-opacity="1" d="M0,192L80,186.7C160,181,320,171,480,149.3C640,128,800,96,960,90.7C1120,85,1280,107,1360,117.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+
+			<!-- video section -->
+			<section id="" class="video pb-5 text-center">
+				<i class="fa-solid fs-2 pause fa-play fa-shake"></i>
+				<h2 class="text-light pt-3">Watch Demo Video</h2>
+				<p class="text-light fs-lg-5 pb-5">Amazing Features, Unlimited Possibilities.</p>
+			</section>
+
+			<!-- faq secton -->
+			<section id="" class="faq">
+				<div class="container pt-5">
+					<div class="row px-3">
+						<div class="col-md-6">
+							<img src="https://demo.epic-webdesign.com/tf-nova/v3/images/faq-img.jpg" class="img-fluid img">
+						</div>
+						<div class="col-md-6">
+							<h2 class="pb-3">Frequently Asked Questions</h2>
+							<a href="https://www.coursera.org/professional-certificates/meta-back-end-developer?"><p>What's difference between organic vs. paid results?</p></a>
+							<p class="pt-3 text-muted">Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum loris fugit, sed quia magni dolores eos qui ratione sequi nesciunt, neque et quis autem velis reprehenderit ets quis velit.</p>
+							<a href="https://www.coursera.org/professional-certificates/meta-back-end-developer?"><p class="py-3">What's difference between organic vs. paid results?</p></a>
+							<a href="https://www.coursera.org/professional-certificates/meta-back-end-developer?"><p class="py-2">What's difference between organic vs. paid results?</p></a>
+							<a href="https://www.coursera.org/professional-certificates/meta-back-end-developer?"><p class="py-2">What's difference between organic vs. paid results?</p></a>
+						</div>
+					</div>
+				</div>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5f6f7" fill-opacity="1" d="M0,192L60,202.7C120,213,240,235,360,208C480,181,600,107,720,69.3C840,32,960,32,1080,53.3C1200,75,1320,117,1380,138.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+			</section>
+
+			<!-- team section -->
+			<section id="team" class="team px-lg-5 pb-lg-5">
+				<h2 class="pb-3">The Team Behind Nova</h2>
+				<p class="pb-3 fs-lg-5 text-muted">There are many variations of passages of Lorem Ipsum available, but the majority<br>
+				have suffered alteration, by injected humour, or new randomised words.</p>
+				<div class="row px-lg-5">
+					<div class="col-md-4">
+						<div class="card text-center py-5 border-0" style="align-items: center;">
+						  <img src="https://demo.epic-webdesign.com/tf-nova/v3/images/team1a.jpg" class="img-fluid card-image" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title">JOHNATHAN HAWKINS</h5>
+						    <p class="text-muted fs-6 fst-italic">Head of SEO</p>
+						    <p class="card-text text-muted fs-lg-5 fw-light">Johnathan is our co-founder and has<br> developed search strategies for a variety<br> of clients for over 5 years.</p>
+						  </div>
+						  <div class="d-flex">
+						  	<i class="fa-brands fa-pinterest text-warning pe-3 fs-4"></i>
+						    <i class="fa-brands fa-twitter text-danger pe-3 fs-4"></i>
+						    <i class="fa-brands fa-facebook text-primary pe-3 fs-4"></i>
+						    <i class="fa-brands fa-square-instagram text-success fs-4"></i>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card text-center py-5 border-0" style="align-items: center;">
+						  <img src="https://demo.epic-webdesign.com/tf-nova/v3/images/team2a.jpg" class="img-fluid card-image" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title">ALEXANDRA SMITHS</h5>
+						    <p class="text-muted fs-6 fst-italic">Head of SEO</p>
+						    <p class="card-text text-muted fs-lg-5 fw-light">Johnathan is our co-founder and has<br> developed search strategies for a variety<br> of clients for over 5 years.</p>
+						  </div>
+						  <div class="d-flex">
+						  	<i class="fa-brands fa-pinterest text-warning pe-3 fs-4"></i>
+						    <i class="fa-brands fa-twitter text-danger pe-3 fs-4"></i>
+						    <i class="fa-brands fa-facebook text-primary pe-3 fs-4"></i>
+						    <i class="fa-brands fa-square-instagram text-success fs-4"></i>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card text-center py-5 border-0" style="align-items: center;">
+						  <img src="https://demo.epic-webdesign.com/tf-nova/v3/images/team3a.jpg" class="img-fluid card-image" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title">ANDRES JOHANSON</h5>
+						    <p class="text-muted fs-6 fst-italic">Head of SEO</p>
+						    <p class="card-text text-muted fs-lg-5 fw-light">Johnathan is our co-founder and has<br> developed search strategies for a variety<br> of clients for over 5 years.</p>
+						  </div>
+						  <div class="d-flex">
+						  	<i class="fa-brands fa-pinterest text-warning pe-3 fs-4"></i>
+						    <i class="fa-brands fa-twitter text-danger pe-3 fs-4"></i>
+						    <i class="fa-brands fa-facebook text-primary pe-3 fs-4"></i>
+						    <i class="fa-brands fa-square-instagram text-success fs-4"></i>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- gallery section -->
+
+			<!-- comapny section -->
+			<section id="" class="company">
+				<div class="container">
+					<div class="row p-lg-5">
+						<div class="col-md-6">
+							<h6><span class="fs-5">Our Amazing Partners</span><br><span class="text-muted">We’ve built apps featured on:</h6>
+						</div>
+						<div class="col-md-6">
+							<i class="fa-brands fa-meta fs-1 pe-lg-5 me-lg-5 text-primary"></i>
+							<i class="fa-brands fa-amazon fs-1 pe-lg-5 me-lg-5 text-warning"></i>
+							<i class="fa-brands fa-paypal fs-1 pe-lg-5 me-lg-5 text-primary"></i>
+							<i class="fa-brands fa-google fs-1  text-danger"></i>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- features section -->
+			<section id="features" class="features text-center py-lg-5">
+				<div class="container p-lg-5">
+					<h2 class="pb-3">Amazing Features</h2>
+					<p class="text-muted mb-3 mb-lg-0">There are many variations of passages of Lorem Ipsum available, but the majority<br>
+					have suffered alteration, by injected humour, or new randomised words.</p>
+					<div class="row mt-5">
+						<div class="col-md-4">
+							<div class="card mb-3 text-start border-0 features_bg">
+							  <div class="row g-0">
+							    <div class="col-md-3">
+							      <i class="fa-solid fa-screwdriver-wrench text-warning fs-1"></i>
+							    </div>
+							    <div class="col-md-9">
+							      <div class="card-body p-lg-0">
+							        <h5 class="card-title">Support 24/7</h5>
+							        <p class="card-text text-muted">Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.</p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-3 text-lg-start text-end border-0 features_bg">
+							  <div class="row g-0">
+							    <div class="col-md-3">
+							      <i class="fa-solid fa-user text-danger fs-1"></i>
+							    </div>
+							    <div class="col-md-9">
+							      <div class="card-body p-lg-0">
+							        <h5 class="card-title">User Friendly</h5>
+							        <p class="card-text text-muted">Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.</p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-3 text-start border-0 features_bg">
+							  <div class="row g-0">
+							    <div class="col-md-3">
+							      <i class="fa-solid fa-bell text-success fs-1"></i>
+							    </div>
+							    <div class="col-md-9">
+							      <div class="card-body p-lg-0">
+							        <h5 class="card-title">Notifications</h5>
+							        <p class="card-text text-muted">Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.</p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
+					<div class="row pt-4">
+						<div class="col-md-4">
+							<div class="card mb-3 text-lg-start text-end border-0 features_bg">
+							  <div class="row g-0">
+							    <div class="col-md-3">
+							      <i class="fa-solid fa-message text-warning fs-1"></i>
+							    </div>
+							    <div class="col-md-9">
+							      <div class="card-body p-lg-0">
+							        <h5 class="card-title">Chat With Friends</h5>
+							        <p class="card-text text-muted">Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.</p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-3 text-start border-0 features_bg">
+							  <div class="row g-0">
+							    <div class="col-md-3">
+							      <i class="fa-solid fa-microphone text-danger fs-1"></i>
+							    </div>
+							    <div class="col-md-9">
+							      <div class="card-body p-lg-0">
+							        <h5 class="card-title">Accesibility</h5>
+							        <p class="card-text text-muted">Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.</p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-3 text-lg-start text-end border-0 features_bg">
+							  <div class="row g-0">
+							    <div class="col-md-3">
+							      <i class="fa-solid fa-flask text-success fs-1"></i>
+							    </div>
+							    <div class="col-md-9">
+							      <div class="card-body p-lg-0">
+							        <h5 class="card-title">Cost Control</h5>
+							        <p class="card-text text-muted">Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.</p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<img src="https://demo.epic-webdesign.com/tf-nova/v3/images/iphone-v.png" class="img-fluid">
+			</section>
+
+			<!-- form section -->
+			<section id="" class="feedback text-center">
+				<div class="container p-lg-5 pb-lg-1 w-lg-50">
+					<p class="fs-lg-3 fs-5 text-light pb-3">Seen enough? We are currently in the closed beta.
+					Please enter your email to join the waiting list.</p>
+					<div class="input-group mb-3">
+					  <input type="text" class="form-control" placeholder="Enter your email address" aria-label="Recipient's username" aria-describedby="basic-addon2" style="background-color: transparent;">
+					  <span class="input-group-text text-danger p-3" id="basic-addon2">Get started !</span>
+					</div>
+				</div>
+			</section>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#25259b" fill-opacity="1" d="M0,256L80,234.7C160,213,320,171,480,170.7C640,171,800,213,960,229.3C1120,245,1280,235,1360,229.3L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+
+			<!-- pricing section -->
+			<section id="pricing" class="pricing text-center container">
+				<h2>Great Pricing Plans</h2>
+				<p class="text-muted content fs-5">There are many variations of passages of Lorem Ipsum available, but the majority<br/>
+				have suffered alteration, by injected humour, or new randomised words.</p>
+				<div class="row p-lg-5">
+					<div class="col-md-4">
+						<div class="card py-3">
+						  <div class="card-body">
+						    <h5 class="card-title">FREE</h5>
+						    <h2 class="card-title fs-1">$0</h2>
+						    <p class="text-muted pb-5">Per Month</p>
+						    <p class="text-muted">24/7 Support</p>
+						    <p class="text-muted">50 Gb Bandwidth</p>
+						    <p class="text-muted pb-3">1 User Acount</p>
+						    <a href="#" class="btn btn-primary" style="background-color: #25259b;">Get startted</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card bg py-3">
+						  <div class="card-body">
+						    <h5 class="card-title">FREE</h5>
+						    <h2 class="card-title fs-1">$0</h2>
+						    <p class="pb-5">Per Month</p>
+						    <p class="">24/7 Support</p>
+						    <p class="">50 Gb Bandwidth</p>
+						    <p class="pb-3">1 User Acount</p>
+						    <a href="#" class="btn btn-primary" style="background-color: #25259b;">Get startted</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card py-3">
+						  <div class="card-body">
+						    <h5 class="card-title">FREE</h5>
+						    <h2 class="card-title fs-1">$0</h2>
+						    <p class="text-muted pb-5">Per Month</p>
+						    <p class="text-muted">24/7 Support</p>
+						    <p class="text-muted">50 Gb Bandwidth</p>
+						    <p class="text-muted pb-3">1 User Acount</p>
+						    <a href="#" class="btn btn-primary" style="background-color: #25259b;">Get startted</a>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- benifits section -->
+			<section id="" class="container py-lg-5 mt-5 benifits">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="https://demo.epic-webdesign.com/tf-nova/v3/images/benefits.png" class="img-fluid">
+					</div>
+					<div class="col-md-6">
+						<h3>Get ready to discover all the benefits and<br/> secrets of a perfect launch</h3>
+						<p class="py-3 text-muted">Velis demo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, sed quia magni dolores eos qui ratione sequi nesciunt neque et poris ratione sequi enim quia tempor magni.</p>
+						<p class="pb-3 text-muted">Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, sed quia magni dolores eos qui ratione sequi.</p>
+						<i class="fa-solid fa-check me-3 text-primary"></i><span class="text-muted fs-lg-5"/>Quia magni netsum eos qui ratione sequi.<br/>
+						<i class="fa-solid fa-check me-3 text-primary"></i><span class="text-muted"/>Venis ratione sequi enim quia tempor magni.<br/>
+						<i class="fa-solid fa-check me-3 text-primary"></i><span class="text-muted"/>Enim ipsam voluptatem quia voluptas.<br/>
+						<i class="fa-solid fa-check me-3 text-primary"></i><span class="text-muted"/>Ratione nes sequi nesciunt neque.<br/>
+						<button type="button" class="btn btn-primary mt-5 p-3">Download app</button>
+					</div>
+				</div>
+			</section>
+			
+			<!-- description section -->
+			<section id="" class="des">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,320L60,288C120,256,240,192,360,165.3C480,139,600,149,720,154.7C840,160,960,160,1080,154.7C1200,149,1320,139,1380,133.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+				<div class="container px-5 py-0">
+					<div class="row d-flex align-items-center">
+						<div class="col-md-8">
+							<h2 class="pb-3">Get The App Now!</h2>
+							<p class="pb-3">Curabitur quam etsum lacus etsumis nulatis etsumised vitae nisledita<br> variustimuslis loremis sedit feugiat ligula aliquam etsimus dictimelis etis<br> dinetsumitis ipsum netsum etim quias nets ligula.</p>
+							<ul class="d-lg-flex p-0">
+								<li class="pe-lg-3 cust-button"><i class="fa-brands me-2 fs-4 fa-apple"></i>Apple store</li>
+								<li class="pe-lg-3 cust-button"><i class="fa-brands me-2 fs-4 fa-google-play"></i>Google store</li>
+								<li class="cust-button"><i class="fa-brands me-2 fs-4 fa-windows"></i>Windows store</li>
+							</ul>
+						</div>
+						<div class="col-md-4 pt-lg-0 pt-3">
+							<img src="https://demo.epic-webdesign.com/tf-nova/v3/images/download-app-iphone.png" class="img-fluid" style="height: 100%" width="auto">				
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- linkup section -->
+			<section id="" class="container link p-lg-5 p-4">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="row linkup">
+							<div class="col-md-2">
+								<i class="fa-solid fs-1 text-primary fa-trophy"></i>
+							</div>
+							<div class="col-md-10 ps-lg-5">
+								<h5>Trusted By 5K</h5>
+								<p class="text-muted">App Of <br>The Year</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="row linkup">
+							<div class="col-md-2">
+								<i class="fa-solid fs-1 text-danger fa-download"></i>
+							</div>
+							<div class="col-md-10 ps-lg-5">
+								<h5>11500</h5>
+								<p class="text-muted">Total <br>Downloads</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="row linkup">
+							<div class="col-md-2">
+								<i class="fa-solid fs-1 text-warning fa-heart"></i>
+							</div>
+							<div class="col-md-10 ps-lg-5">
+								<h5>5500</h5>
+								<p class="text-muted">Active <br>Members</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="row linkup">
+							<div class="col-md-2">
+								<i class="fa-solid fs-1 text-info fa-rocket"></i>
+							</div>
+							<div class="col-md-10 ps-lg-5">
+								<h5>1000+</h5>
+								<p class="text-muted">Diferent <br>Premium Avatars</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- blog section -->
+			<section class="blog text-center py-lg-5" id="blog">
+				<div class="container p-lg-5">
+					<h2 class="pb-3">Our Latest News</h2>
+					<p class="fs-lg-5 text-muted pb-5">There are many variations of passages of Lorem Ipsum available, but the majority<br>
+					have suffered alteration, by injected humour, or new randomised words.</p>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card cust-card text-start">
+							  <img src="https://demo.epic-webdesign.com/tf-nova/v3/images/blog1.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+							    <a href="google.comn" class="fs-5 d-block">Lorem ipsum</a>
+							    <i class="fa-solid fa-user pe-2 pt-3"></i>Jit nath | <i class="fa-solid fa-tag pe-2 pb-3"></i>Wordpress
+							    <p class="text-muted text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card cust-card text-start">
+							  <img src="https://demo.epic-webdesign.com/tf-nova/v3/images/blog2.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+							    <a href="google.comn" class="fs-5 d-block">Lorem ipsum</a>
+							    <i class="fa-solid fa-user pe-2 pt-3"></i>Jit nath | <i class="fa-solid fa-tag pe-2 pb-3"></i>Wordpress
+							    <p class="text-muted text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card text-start">
+							  <img src="https://demo.epic-webdesign.com/tf-nova/v3/images/blog3.jpg" class="card-img-top" alt="...">
+							  <div class="card-body">
+							    <a href="google.comn" class="fs-5 d-block">Lorem ipsum</a>
+							    <i class="fa-solid fa-user pe-2 pt-3"></i>Jit nath | <i class="fa-solid fa-tag pe-2 pb-3"></i>Wordpress
+							    <p class="text-muted text-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- contact us section -->
+			<section id="contact" class="contact">
+				<div class="container p-lg-5 p-4">
+					<div class="row pt-5">
+						<div class="col-md-6">
+							<h2 class="pb-3">Get in touch</h2>
+							<form class="row g-3">
+							  <div class="col-md-6">
+							    <input type="text" class="form-control" id="inputEmail4" placeholder="First name">
+							  </div>
+							  <div class="col-md-6">
+							    <input type="text" class="form-control" id="inputPassword4" placeholder="Last name">
+							  </div>
+							  <div class="col-12">
+							    <input type="email" class="form-control" id="inputAddress" placeholder="Email">
+							  </div>
+							  <div class="col-12">
+							    <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+							  </div>
+							  <div class="col-12">
+							    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment no, house no">
+							  </div>
+							  <div class="col-md-6">
+							    <input type="text" class="form-control" id="inputCity" placeholder="Pincode">
+							  </div>
+							  <div class="col-md-4">
+							    <select id="inputState" class="form-select">
+							      <option selected>Choose Gender</option>
+							      <option>Male</option>
+							      <option>Female</option>
+							      <option>Others</option>
+							    </select>
+							  </div>
+							  <div class="col-md-2">
+							    <input type="number" class="form-control" id="inputZip">
+							  </div>
+							  <div class="form-floating mb-3">
+								  <textarea class="form-control" placeholder="Feedback" id="floatingTextarea2" style="height: 100px">Feedback</textarea>
+								</div>
+							  <div class="col-12">
+							    <button type="submit" class="btn px-4 py-3 btn-primary">Send message</button>
+							  </div>
+							</form>
+						</div>
+						<div class="col-md-6 ps-3">
+							<h2 class="pb-3">How to find us</h2>
+							<iframe class="border border-3 map rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29526.15750851731!2d88.47339022266362!3d22.324548398106575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0214a0d1f3caeb%3A0x31bed330bd3d1248!2sRamnagar%2C%20West%20Bengal%20743387!5e0!3m2!1sen!2sin!4v1705598832341!5m2!1sen!2sin" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<h5 class="py-2">Head Office</h5>
+							<p><i class="fa-solid fa-book-open pe-2"></i> 10 Oxford Street, London, UK, E1 1EC</p>
+							<p><i class="fa-solid fa-envelope pe-2"></i><a href="mailto:someone@example.com">Example@gmail.com</a></p>
+						</div>
+					</div>
+				</div>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#25259b" fill-opacity="1" d="M0,192L80,186.7C160,181,320,171,480,149.3C640,128,800,96,960,90.7C1120,85,1280,107,1360,117.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+			</section>
+
+			<!-- conclusion section -->
+			<section style="background-color: #25259b; color: #ffffff" class="text-center pb-5">
+				<p class="pb-3">Copyright@ Jeetnath2110@gmail.com</p>
+				<i class="fa-brands fa-facebook pe-3 fs-4"></i><i class="fa-brands fa-whatsapp pe-3 fs-4"></i><i class="fa-brands fa-twitter pe-3 fs-4"></i><i class="fa-brands fa-instagram pe-3 fs-4"></i><i class="fa-brands fa-skype fs-4"></i>
+			</section>
+			
+
+
+	</body>
+
+	<!-- bootstrap js link -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<!-- slick js link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</html>

@@ -1,0 +1,224 @@
+body{
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: 'Lato', sans-serif;
+}
+nav{
+	background-color: #25259b;
+	color: #ffffff;
+}
+.n-items{
+	color: #ffffff;
+	font-size: 20px;
+}
+.banner{
+	overflow: hidden;
+	background-color: #25259b;
+}
+.banner .button{
+	background-color: #0ccec0;
+	color: #ffffff;
+}
+.about{
+	margin: 0;
+	background-color: #f5f6f7;
+}
+.about .image{
+	width: 100px;	
+}
+.about-end{
+	margin: 0;
+}
+.about-end .back{
+	background-color: #25259b;
+	color: #ffffff;
+	border-radius: 50%;
+}
+.video{
+	background-color: #25259b;
+}
+.video .pause{
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	padding: 15px;
+	border-radius: 50%;
+}
+.faq a{
+	text-decoration: none;
+	color: #000000;
+}
+.team{
+	background-color: #f5f6f7;
+	text-align: center;
+}
+.team .card-image{
+	width: 100px;
+	border-radius: 50%;
+}
+.company{
+	background-color: #ffffff;
+}
+.features{
+	background-color: #f5f6f7;
+}
+.features_bg{
+	background-color: #f5f6f7;
+}
+.feedback{
+	background-color: #25259b;
+}
+.pricing .card{
+	background-color: #f5f6f7;
+	border: 1px solid #25259b;
+	border-radius: 30px;
+}
+.pricing .bg{
+	background-color: #25259b;
+	border-radius: 30px;
+	color: #ffffff;
+}
+.pricing .btn{
+	border: 1px solid #ffffff;
+}
+.benifits .btn{
+	background-color: #25259b;
+}
+.des{
+	background-color: #25259b;
+	color: white;
+}
+.des .btn{
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+.blog{
+	background-color: #f5f6f7;
+}
+.blog a{
+	text-decoration: none;
+	color: #000000;
+}
+.contact a{
+	text-decoration: none;
+	color: #000000;
+}
+.des .cust-button{
+	 list-style: none;
+	 padding: 10px 20px;
+	 border: 1px solid #ffffff;
+	 margin-right: 10px;
+	 border-radius: 8px;
+}
+
+/*resposive banner*/
+
+@media only screen and (max-width: 992px) {
+	  .banner {
+	    padding: 20px 15px;
+	    height: 100vh;
+	  }
+	  .banner .col-md-7{
+	  	margin-top: 100px;
+	  }
+	  .banner .form{
+	  	margin-bottom: 20px;
+	  }
+	  .about{
+	  	padding: 60px 15px;
+	  }
+	  .about .cb{
+	  	margin-bottom: 50px;
+	  }
+	  .about .about-end{
+	  	padding: 20px 15px;
+	  }
+	  .about .end{
+	  	align-items: end;
+	  }
+	  .faq .img{
+	  	   margin-bottom: 50px;
+	  }
+	  .team{
+	  	padding: 25px;
+	  }
+	  .team .card{
+	  	margin-bottom: 30px;
+	  }
+	  .company{
+	  	padding: 20px 15px;
+	  	text-align: center;
+	  }
+	  .company .fa-brands{
+	  	margin-top: 15px;
+	  	padding-right: 15px;
+	  }
+	  .features{
+	  	padding: 50px 25px;
+	  	align-items: center;
+	  }
+	  .feedback{
+	  	padding: 35px 20px;
+	  }
+	  .pricing{
+	  	padding: 20px 35px;
+	  }
+	  .pricing .card{
+	  	margin-top: 35px;
+	  }
+	  .pricing .content{
+	  	padding: 0px 23px;
+	  	margin-top: 25px;
+	  }
+	  .benifit{
+	  	padding-top: 40px;
+	  	padding-right: 26px;
+	  	padding-left: 25px;
+	  }
+	  
+	  .link .linkup{
+	  	text-align: center;
+	  	margin: 25px 0px;
+	  }
+	  .link .fa-solid{
+	  	margin-bottom: 20px;
+	  }
+	  .blog{
+	  	padding: 75px 15px;
+	  }
+	  .blog .cust-card{
+	  	margin-bottom: 35px;
+	  }
+	  .contact{
+
+	  }
+	  .contact .btn{
+	  	margin-bottom: 20px;
+	  }
+	  .contact .map{
+	  	width: 100%;
+	  	max-width: 100%;
+	  	margin-bottom: 10px;
+	  }
+	  .navbar{
+	  	text-align: center;
+	  }
+	  .navbar .btn{
+	  	display: flex;
+	  	margin: auto;
+	  	margin-top: 10px;
+	  }
+	  .des .cust-button{
+		 text-align: center;
+		 margin-bottom: 10px;
+		 padding: 10px 0;
+	}
+	.benifits span{
+		font-size: 15px;
+	}
+	.container{
+
+	}
+	.benifits{
+		padding: 20px 30px;
+	}
